@@ -1,0 +1,14 @@
+th {
+  background-color: black;
+  color: white;
+}
+
+td {
+  border: 1px solid black;
+}
+
+p {
+  background-color: aliceblue;
+  padding: 1rem;
+  text-align: justify;
+}

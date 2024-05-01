@@ -1,0 +1,136 @@
+<div class="background">
+    <br>
+    <br>
+    <br>
+    <h1 class="register-heading"> Registration Form</h1>
+    <br>
+    <br>
+<div class="card">
+    <h1>University</h1>
+    <div class="image-container">
+        <img src="assets/login5_img.webp" width="100%" alt="Image" class="registration-image"  height="90%">
+    </div>
+    
+    <form #registrationForm="ngForm" (ngSubmit)="onSubmit()">
+        <table width="700" border="0" align="center" cellpadding="10" cellspacing="5">
+            <tr>
+                <th width="25%" height="60">&nbsp;</th>
+                <th><h3>Student Registration Form</h3></th>
+                <th width="10%">&nbsp;</th>
+            </tr>
+            <tr>
+                <td><strong>ID</strong></td>
+                <td><input name="ID" type="number" size="35" required ngModel/></td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td><strong>Name:</strong></td>
+                <td><input name="Name" type="text" size="35" required ngModel/></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>Username:</strong></td>
+                <td><input name="Username" type="text" size="35" required ngModel/></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>Password:</strong></td>
+                <td><input name="Password" type="password" size="35" required ngModel/></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>Email:</strong></td>
+                <td><input name="Email" type="email" size="35" required ngModel/></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>DOB:</strong></td>
+                <td><input name="DOB" type="date"  size="35" required ngModel/></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>Gender:</strong></td>
+                <td>
+                    <input type="radio" name="Gender" value="male" required ngModel>Male
+                    <input type="radio" name="Gender" value="female" ngModel>Female
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td><strong>Address:</strong></td>
+                <td><input name="Address" type="text" size="35" required ngModel/></td>
+                <td>&nbsp;</td>
+            </tr>
+            
+            <tr>
+                <td><strong>City:</strong></td>
+                <td>
+                    <select name="City" id="slct1" required ngModel (change)="populate('slct1', 'slct2')">
+                        <option value="">Select..</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Nagpur">Nagpur</option>
+                        <option value="Nashik">Nashik</option>
+                        <option value="Aurangabad">Aurangabad</option>
+                        <option value="Solapur">Solapur</option>
+                        <option value="Satara">Satara</option>
+                    </select>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td><strong>Pincode:</strong></td>
+                <td><input name="Pincode" type="number" size="35" required ngModel/></td>
+                <td>&nbsp;</td>
+            </tr>
+            
+            <tr>
+                <td><strong>State:</strong></td>
+                <td>
+                    <select name="State" id="slct2" required ngModel>
+                        <option value="">Select..</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                    </select>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td><strong>Hobbies:</strong></td>
+                <td>
+                    <select name="Hobbies" id="slct3" required ngModel>
+                        <option value="">Select..</option>
+                        <option value="Reading">Reading</option>
+                        <option value="Hiking">Hiking</option>
+                        <option value="Cycling">Cycling</option>
+                        <option value="Swimming">Swimming</option>
+                        <option value="Dancing">Dancing</option>
+                        <option value="Singing">Singing</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td><strong>Mobile Number:</strong></td>
+                <td><input name="Mobilenum" type="number" size="35" ngModel/></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><input type="reset" /></td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+        
+</div>
+
+<br>
+<br>
+<br>
+</div>

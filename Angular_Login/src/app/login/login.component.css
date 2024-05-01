@@ -1,0 +1,64 @@
+.background {
+  background: linear-gradient(to bottom, #3498db, white); /* Adjust gradient colors as needed */
+}
+
+.login-heading {
+  text-align: center; /* Center the text */
+  color: white; /* Make the text white */
+  margin-bottom: 20px; /* Add some space below the heading */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  
+.card {
+      width: 50%; /* Adjust the width as needed */
+      margin: 50px auto; /* Center the card horizontally and add margin top and bottom */
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size: larger;
+      background-color: white;
+}
+  
+.card-body {
+  display: flex;
+  flex-direction: column; /* Change flex direction to column */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+}
+  
+  
+  .card .card-body {
+    padding: 40px; /* Padding */
+  }
+  
+  .card .card-title {
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+  
+  .footer {
+    color: skyblue;
+    text-align: center;
+   /* Adjust spacing */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 90%;
+  }
+  

@@ -1,0 +1,73 @@
+.background {
+    background: linear-gradient(to bottom, #3498db, white); /* Adjust gradient colors as needed */
+}
+
+.register-heading {
+    text-align: center; /* Center the text */
+    color: white; /* Make the text white */
+    margin-bottom: 20px; /* Add some space below the heading */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.card {
+   
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    margin: 0 auto; /* Center the card horizontally */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+h1 {
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.registration-image {
+     /* Adjust image size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+input[type="reset"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background-color: skyblue;
+}
