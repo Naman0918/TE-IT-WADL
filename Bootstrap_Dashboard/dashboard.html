@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    .todo {
+        padding: 0.5rem 1rem;
+        margin-bottom: 0.5rem;
+        border-radius: 0.25rem;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark">
+        <a href="#" class="navbar-brand">LOGO</a>
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Need Help</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Message</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container mt-4">
+        <h2>Dashboard:</h2>
+        <br>
+        <br>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Team</th>
+                    <th>All Star</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mysh</td>
+                    <td>Warriors</td>
+                    <td><span class="badge bg-success">Yes</span></td>
+                    <td><button class="btn btn-danger">X</button></td>
+                </tr>
+                <tr>
+                    <td>Letsun</td>
+                    <td>Cavaliers</td>
+                    <td><span class="badge bg-danger">No</span></td>
+                    <td><button class="btn btn-danger">X</button></td>
+                </tr>
+                <tr>
+                    <td>Donaye</td>
+                    <td>Heat</td>
+                    <td><span class="badge bg-danger">No</span></td>
+                    <td><button class="btn btn-danger">X</button></td>
+                </tr>
+                <tr>
+                    <td>Roke</td>
+                    <td>Lakers</td>
+                    <td><span class="badge bg-warning">Not Sure</span></td>
+                    <td><button class="btn btn-danger">X</button></td>
+                </tr>
+                <tr>
+                    <td>Iuneh</td>
+                    <td>Celtics</td>
+                    <td><span class="badge bg-success">Yes</span></td>
+                    <td><button class="btn btn-danger">X</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+
+        <h2>Todos:</h2>
+        <br>
+
+        <div class="todos">
+            <div class="todo bg-success ">Feel good about hustling</div>
+            <div class="todo bg-info ">Feel assumed about hustling</div>
+            <div class="todo bg-warning">Feel worried about husttlers</div>
+            <div class="todo bg-light">Maybe i should read the docs.</div>
+            <div class="todo bg-danger ">Congrats man</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-A/iu9Hu6+gEukJLWE2tHoPdHIl3PL5Cf+/TLMn8UP/AkE1ry0InJ8Dv+sYY95SLd"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-rpPlSFi8XrWJLF7hzmG9DmV1BHuxb30fYtv0a33Vpvsfz+jxW0A0THDH2f+FZrFE"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

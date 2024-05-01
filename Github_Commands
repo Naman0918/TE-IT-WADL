@@ -1,0 +1,48 @@
+How to download the libraries from requirements.txt file ?
+
+Write libraries name -> openai, pandas ,numpy
+Then write on terminal -> pip install -r requirements.txt  
+
+
+STEPS TO START REACT APP:
+
+npx create-react-app my-app
+
+npm start
+
+To change directory :
+
+Cd Desktop
+
+
+HOW TO PUSH CODE ON GITHUB
+
+Follow the steps to push file to GitHub
+
+	•	git init
+
+	•	git add .
+
+	•	git commit -m "first commit"
+
+	•	git branch -M main
+
+	•	git remote add origin https://github.com/Naman0918/FILE_NAME.git
+
+	•	git push -u origin main
+
+
+TO PULL THE CODE FROM A BRANCH 
+
+Git checkout branch_name
+
+Git pull
+
+
+To push the code what we should do is
+
+Create new branch ——>  
+
+
+
+Tailwind ---->  https://tailwindcss.com/docs/installation
