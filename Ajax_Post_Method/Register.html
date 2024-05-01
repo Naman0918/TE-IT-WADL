@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Register Page</title>
+</head>
+<body>
+    <br>
+    <br>
+    <div class="heading">
+        <h1 style="color:blue;">Registration Form</h1>
+    </div>
+    <br><br>
+    <div class="center-form">
+        <center>
+            <form id="registrationForm">
+                
+                <label>Enter Your Id:</label>
+                <input type="text" name="Id" id="IdInput" placeholder="Enter Your Id">
+                <br><br>
+                <label>Enter Your Name:</label>
+                <input type="text" name="name" id="nameInput" placeholder="Enter Your Name">
+                <br><br>
+                <label>Enter Your Email:</label>
+                <input type="email" name="e-mail" id="emailInput" placeholder="Name@Example.com">
+                <br><br>
+                <label>Enter Password:</label>
+                <input type="password" name="password" id="passwordInput" placeholder="Enter Password">
+                <br><br>
+                <input name="gender" id="male" value="male" type="checkbox" onclick="">Male
+                <input name="gender" id="female" value="female" type="checkbox" onclick="">Female
+                <input name="gender" id="Other" value="Other"type="checkbox" onclick="">Other
+                <br><br>
+                <textarea rows="4" cols="40" name="comment" id="address" form="usrform" placeholder="Enter Address here..."></textarea>
+                <br><br>
+                <label>Enter Your City:</label>
+                <select id="city">
+                    <option value="Pune">Pune</option>
+                    <option value="Nagpur">Nagpur</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br><br>
+                <label>Enter Your State :</label>
+                <select id="state">
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Gujrat">Gujrat</option>
+                    <option value="Kerela">Kerela</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br><br>
+                <label>Enter your PinCode :</label>
+                <input type="text" name="PinCode" id="PinCodeInput" placeholder="Enter Your PinCode">
+                <br><br>
+                <textarea rows="2" cols="40" name="comment" form="usrform" placeholder="Enter Your Hobbies here..."></textarea>
+                <br><br>
+                <input type="checkbox" onclick="myFunctionpass()">Show Password
+                <br><br>
+                <button type="button" id="submitButton" class="btn btn-primary">Submit</button>
+                <button type="button" id="cancelButton" class="btn btn-danger">Cancel</button>
+</form>
+        </center>
+        <br><br><br>
+        </form>
+    </div>
+    <script>
+        myFunctionpass = () =>{
+            var x = document.getElementById("passwordInput");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+</body>
+</html>
